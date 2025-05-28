@@ -1,0 +1,23 @@
+{
+  "name": "aircraft-maintenance-ussd",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["ussd", "africastalking", "aircraft", "maintenance"],
+  "author": "Your Name <your.email@example.com>",
+  "license": "ISC",
+  "description": "A USSD application for reporting aircraft maintenance issues using Africa's Talking API",
+  "dependencies": {
+    "africastalking": "^0.7.3",
+    "body-parser": "^2.2.0",
+    "express": "^4.21.1",
+    "mysql2": "^3.14.1",
+    "nodemon": "^3.1.10"
+  },
+  "engines": {
+    "node": ">=18.x"
+  }
+}
